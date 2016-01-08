@@ -6,23 +6,64 @@
 <title>Monster Hunter Online</title>
 </head>
 <body>
-
-<div id = "main_menubar_wrapper">
-	<div id = "main_menubar">
-		<div id = "main_menubar_itemholder">
-		<img src="/MHO/res/MHO_logo.png" alt="logo" style= "padding: 9px 100px 9px 9px;float:left;">
+<div id = "main_wrapper">
+	<div id = "main_menubar_wrapper">
+		<div id = "main_menubar">
+			<div id = "main_menubar_itemholder">
+			<a href="/MHO/">
+				<img id = "logo_holder" src="/MHO/res/logo.gif" alt="logo">
+			</a>
+			</div>
+			<div id = "main_menubar_itemholder2">
+				<div id = "main_menubar_itemholder_part">
+				<a href="/MHO/quests.html">
+					<img id = "main_menubar_item" src="/MHO/res/quests2.png">
+				</a>
+				<a href="/MHO/monsters.html">
+					<img id = "main_menubar_item" src="/MHO/res/monsters2.png">
+				</a>
+				<a href="/MHO/armors.html">
+					<img id = "main_menubar_item" src="/MHO/res/armors2.png">
+				</a>
+				<a href="/MHO/weapons.html">
+					<img id = "main_menubar_item" src="/MHO/res/weapons2.png">
+				</a>
+				<a href="/MHO/items.html">
+					<img id = "main_menubar_item" src="/MHO/res/items2.png">
+				</a>
+				<a href="/MHO/maps.html">
+					<img id = "main_menubar_item" src="/MHO/res/maps2.png">
+				</a>
+				</div>
+			</div>
 		</div>
-		<div id = "main_menubar_itemholder2">
-			<div id = "main_menubar_itemholder_part">
-			<img id = "main_menubar_item" src="/MHO/res/quests.png">
-			<img id = "main_menubar_item" src="/MHO/res/monsters.png">
-			<img id = "main_menubar_item" src="/MHO/res/armors.png">
-			</div>
-			<div id = "main_menubar_itemholder_part">
-			<img id = "main_menubar_item" src="/MHO/res/weapons.png">
-			<img id = "main_menubar_item" src="/MHO/res/items.png">
-			<img id = "main_menubar_item" src="/MHO/res/maps.png">
-			</div>
+	</div>
+	<div id = "main_contentholder">
+		&nbsp A database for Monster Hunter Online.
+		<p>
+		<div>
+		&nbsp Acknowledgements:
+
+		I compiled data from 6 sources to make sure things are as complete and correct as they can be. These include the MH4G game, Official MH4G Guidebook, http://wiki.mh4g.org/, http://www61.atwiki.jp/3dsmh4g/pages/1.html and http://mh4info.com/ for data. I also used Ping's Dex https://sites.google.com/site/pingsdex/pingsmh4gdex for comparison, error correction, missing data and quest names.
+		I was able to receive help from the following people on /r/MonsterHunter: /u/kamegami for working on the database, /u/ShadyFigure for fixing Japanese translations and QA, /u/raithian25 for QA, /u/Nicola1975 for additional map data.
+		Some old friends and anons from /mhg/ provided QA during early stages of development. But they were always screwing around and ended up not helping at all. Thanks anyways guys.
+		IncognitoMan, dasding, Hairo and Aule for additional content.
+		McL for stagger part names.
+		/u/Bunnyapocalips and Janni for German localization.
+		Ina and Red for French localization.
+		</div>
+		<p>
+		<div>
+		&nbsp Release Notes:
+
+		Language switching is now possible for all pages. These pages are indicated by a  icon next to them.
+		Switching between pages for 4th and 3rd generation is also possible. For example Rathian exists in both 4th and 3rd gen shown by the  indicator, clicking it will take you to the same page for the other game. This feature only works for individual monsters, items, weapons, armors and skills.
+		Translations are becoming the main bottleneck of the development process since I have to translate a piece of text 6 times. This explains why most tables don't have headers so you'll have to guess what most fields mean for now.
+		Anything containing the word "dummy" is MH4G exclusive. If you want to view them change your language to Japanese before before clicking the link.
+		The search bar doesn't actually have search functionality. It will only provide auto-completion and then sends you to the matched page. The auto-completion list is stored in your browser for speed, browsers allow only up to 5MB storage (Chrome will allow 10MB) so if you visit multiple languages and games this will fill up quickly up to a point where it will no longer function. If this happens, clear your browser's localstorage.
+		Avoid browsing on the 3DS browser since it has very little memory. Stick with the latest version of Chrome to be safe.
+		I will leave the old MH3U section online, I plan to migrate (i.e. redirect URLs) everything to the new section later this year.
+		I spent very little time on design so what you see might not be final.
 		</div>
 	</div>
 </div>
